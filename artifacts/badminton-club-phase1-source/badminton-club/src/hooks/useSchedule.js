@@ -9,7 +9,7 @@ import {
   resetWeekOverride,
   clearAllOverrides,
   DEFAULT_WEEKS,
-} from './scheduleEngine';
+} from '../engine/scheduleEngine';
 
 /**
  * @param {number} weeksCount 生成周数

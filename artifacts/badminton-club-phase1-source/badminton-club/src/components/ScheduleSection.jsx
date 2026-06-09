@@ -4,7 +4,7 @@
 import { useMemo } from 'react';
 import { useSchedule } from '../hooks/useSchedule';
 import WeekScheduleCard from './WeekScheduleCard';
-import { formatMonthCN, getNextActiveIndex, COACHES } from './scheduleEngine';
+import { formatMonthCN, getNextActiveIndex, COACHES } from '../engine/scheduleEngine';
 
 export default function ScheduleSection() {
   const { schedule, handleSubstitution, handleReset, handleClearAll } = useSchedule(26);
